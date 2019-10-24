@@ -1,0 +1,11 @@
+mas espanhol {
+    agent sample_agent {
+    	instances: 2
+		join: env
+		focus: env.v
+    }
+    
+    workspace env {
+		artifact v: model.Escopa(700)
+	}
+}
