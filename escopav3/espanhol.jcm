@@ -1,17 +1,10 @@
 mas espanhol {
-    agent kevin {
-    	instances: 1
+    agent agent {
+    	instances: 2
 		join: env
 		focus: env.v
     }
-    
-     agent buda {
-    	instances: 1
-		join: env
-		focus: env.v
-    }
-    
-    
+  
     workspace env {
 		artifact v: model.Escopa(0)
 	}
